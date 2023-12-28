@@ -11,6 +11,8 @@ import PyPDF2
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import streamlit as st
 
+st.title("Chat with your Documents!")
+
 openai_api_key = st.secrets.OPENAI_API_KEY
 
 chat_history = []
