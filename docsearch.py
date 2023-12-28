@@ -13,7 +13,7 @@ import streamlit as st
 
 st.title("Chat with your Documents!")
 
-openai_api_key = st.secrets.OPENAI_API_KEY
+OPENAI_API_KEY = st.secrets.OPENAI_API_KEY
 
 chat_history = []
 db = None
