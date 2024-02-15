@@ -3,3 +3,4 @@ langchain
 duckduckgo-search
 pypdf2
 tiktoken
+faiss-cpu
