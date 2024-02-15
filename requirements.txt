@@ -2,4 +2,4 @@ openai==0.28.0
 langchain
 duckduckgo-search
 pypdf2
-tictoken
+tiktoken
